@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf1443e-7099-43c7-9888-882ba463eca3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator.lang.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator.lang.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/generator/lang/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/generator/lang/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/main/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/main/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/main/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/main/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/QueriesGenerated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/templates/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/templates/main@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/source_gen.caches/generator/lang/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/source_gen.caches/generator/lang/generated" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,18 +173,12 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator.lang#01" />
+              <option name="myItemId" value="test_models" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,6 +203,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test_models" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/solutions/test_models/models/test_models.generator_demo.test1.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,15 +244,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test_models" />
+              <option name="myItemId" value="generator.lang#01" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/solutions/test_models/models/test_models.generator_demo.test1.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,6 +265,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator.lang#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:5687094e-9819-4194-97de-b74601033fb2(main@generator) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/languages/generator.lang/generator/templates/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5359637282844352935" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -299,6 +320,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="324" y="123" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1599383705531" />
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1599391780603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1599391780603" />
     <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1598954819919">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
