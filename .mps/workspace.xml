@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcf1443e-7099-43c7-9888-882ba463eca3" name="Default Changelist" comment="" />
+    <list default="true" id="bcf1443e-7099-43c7-9888-882ba463eca3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="437da8e2-7edf-4f06-8c4b-fc9b445f4106/r:25b6ce13-eb7d-4204-8539-1f436d1c219f(TempModule437da8e2-7edf-4f06-8c4b-fc9b445f4106/ConsoleModel_4657264158000)">
+            <model ref="8ae03364-06d5-4dba-a9bb-44e7cb84ae00/r:b7bd1261-9c61-4025-a2b3-49caca18778c(TempModule8ae03364-06d5-4dba-a9bb-44e7cb84ae00/ConsoleModel_542072938300)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +36,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="54vQP_iai3S">
-                <node concept="3balQm" id="54vQP_iai3T" role="aymYE" />
-                <node concept="2Clz$F" id="54vQP_iai3U" role="aymYO" />
-                <node concept="2_V_lH" id="54vQP_iai3V" role="1PhJh3">
-                  <ref role="2_V_lI" node="54vQP_iai3U" resolve="CommandHolder" />
+              <node concept="aymSD" id="4DxgrpgRnlY">
+                <node concept="3balQm" id="4DxgrpgRnlZ" role="aymYE" />
+                <node concept="2Clz$F" id="4DxgrpgRnm0" role="aymYO" />
+                <node concept="2_V_lH" id="4DxgrpgRnm1" role="1PhJh3">
+                  <ref role="2_V_lI" node="4DxgrpgRnm0" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -58,6 +61,9 @@
         <flags show_one_result="true" new_tab="false" />
       </view>
     </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -85,6 +91,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1guB4A4aA7eQ2OQe02h9WfCgNSx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
@@ -150,9 +157,80 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator.lang#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_models" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator.lang#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:5687094e-9819-4194-97de-b74601033fb2(main@generator) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/languages/generator.lang/generator/templates/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -168,36 +246,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/solutions/test_models/models/test_models.generator_demo.test1.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_models" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,20 +255,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_models" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/solutions/test_models/models/test_models.generator_demo.test1.mps]" />
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -254,18 +295,18 @@
     </default_view_options>
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="148" key="#MPSPropertiesConfigurable" timestamp="1598955727922">
+    <state x="324" y="123" key="#MPSPropertiesConfigurable" timestamp="1599383705531">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="324" y="148" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1598955727922" />
+    <state x="324" y="123" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1599383705531" />
     <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1598954819919">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598954819919" />
-    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1598955716366">
+    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1599383702496">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1598955716366" />
+    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1599383702496" />
     <state x="400" y="228" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1598954833098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
