@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="772f6dcd-8c0d-48f7-869c-908e036f7c8e" name="jetbrains.mps.sampleXML" version="0" />
+    <use id="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa" name="generator.lang" version="0" />
+    <engage id="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa" name="generator.lang" />
   </languages>
   <imports />
   <registry>

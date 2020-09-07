@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bcf1443e-7099-43c7-9888-882ba463eca3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator.lang.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator.lang.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PVQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PVQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/generator/lang/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/generator/lang/generated" afterDir="false" />
@@ -12,7 +13,16 @@
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/QueriesGenerated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/templates/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/templates/main@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/generator.lang/source_gen.caches/generator/lang/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/source_gen.caches/generator/lang/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/Button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/Label.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/models/test_models.generator_demo.test1.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/models/test_models.generator_demo.test1.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/Button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/Label.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/test_models.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/test_models.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="8ae03364-06d5-4dba-a9bb-44e7cb84ae00/r:b7bd1261-9c61-4025-a2b3-49caca18778c(TempModule8ae03364-06d5-4dba-a9bb-44e7cb84ae00/ConsoleModel_542072938300)">
+            <model ref="d4ac2f74-66a2-4893-855a-65821c6cd72c/r:2f62e071-058f-49d6-9469-cba6112e6280(TempModuled4ac2f74-66a2-4893-855a-65821c6cd72c/ConsoleModel_1470438495600)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -45,11 +55,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4DxgrpgRnlY">
-                <node concept="3balQm" id="4DxgrpgRnlZ" role="aymYE" />
-                <node concept="2Clz$F" id="4DxgrpgRnm0" role="aymYO" />
-                <node concept="2_V_lH" id="4DxgrpgRnm1" role="1PhJh3">
-                  <ref role="2_V_lI" node="4DxgrpgRnm0" resolve="CommandHolder" />
+              <node concept="aymSD" id="5zO68hnX68O">
+                <node concept="3balQm" id="5zO68hnX68P" role="aymYE" />
+                <node concept="2Clz$F" id="5zO68hnX68Q" role="aymYO" />
+                <node concept="2_V_lH" id="5zO68hnX68R" role="1PhJh3">
+                  <ref role="2_V_lI" node="5zO68hnX68Q" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -166,8 +176,19 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -185,10 +206,6 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,25 +227,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator.lang#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:5687094e-9819-4194-97de-b74601033fb2(main@generator) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/languages/generator.lang/generator/templates/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
@@ -237,52 +236,21 @@
               <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="test_models" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemId" value="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/solutions/test_models/models/test_models.generator_demo.test1.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generator.lang#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator.lang#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:5687094e-9819-4194-97de-b74601033fb2(main@generator) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/languages/generator.lang/generator/templates/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5359637282844352935" />
+              <option name="myItemId" value="5845632018027395141" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -294,6 +262,57 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2020.1.3/sampleXML/languages/sampleXML/jetbrains.mps.sampleXML.mpl" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="All Tests in Project" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" />
+          <option name="myModuleRef" />
+          <option name="myInProcess" value="false" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="C:\Users\orlov\AppData\Roaming\JetBrains\MPSJUnitRC0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="0" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" value="-ea" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2020.1" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit Tests.All Tests in Project" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -316,10 +335,10 @@
     </default_view_options>
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="123" key="#MPSPropertiesConfigurable" timestamp="1599383705531">
+    <state x="324" y="123" key="#MPSPropertiesConfigurable" timestamp="1599498809973">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="324" y="123" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1599383705531" />
+    <state x="324" y="123" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1599498809973" />
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1599391780603">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -328,10 +347,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598954819919" />
-    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1599383702496">
+    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1599498799236">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1599383702496" />
+    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1599498799236" />
     <state x="400" y="228" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1598954833098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

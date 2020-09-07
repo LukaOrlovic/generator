@@ -5,21 +5,55 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="58,0,61,0" name="main.QueriesGenerated$PROPS" />
-      <unit at="41,0,57,0" name="main.QueriesGenerated$PVQ" />
-      <unit at="19,0,62,0" name="main.QueriesGenerated" />
+      <unit at="137,0,140,0" name="main.QueriesGenerated$PROPS" />
+      <unit at="141,0,144,0" name="main.QueriesGenerated$LINKS" />
+      <unit at="91,0,106,0" name="main.QueriesGenerated$SNQ" />
+      <unit at="120,0,136,0" name="main.QueriesGenerated$PVQ" />
+      <unit at="60,0,77,0" name="main.QueriesGenerated$RRC" />
+      <unit at="28,0,145,0" name="main.QueriesGenerated" />
     </file>
   </root>
   <root nodeRef="r:5687094e-9819-4194-97de-b74601033fb2(main@generator)/5359637282844352935">
     <file name="QueriesGenerated.java">
-      <node id="5359637282844353992" at="24,88,25,78" concept="1" />
-      <node id="5359637282844353685" at="29,14,30,186" concept="0" />
-      <node id="5359637282844353685" at="50,15,51,66" concept="1" />
-      <node id="5359637282844353686" at="24,0,27,0" concept="2" trace="propertyMacro_GetValue_1_0#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
-      <scope id="5359637282844353687" at="24,88,25,78" />
-      <scope id="5359637282844353685" at="50,15,51,66" />
-      <scope id="5359637282844353686" at="24,0,27,0">
+      <node id="5359637282844353992" at="39,88,40,78" concept="1" />
+      <node id="5359637282844519242" at="42,92,43,81" concept="1" />
+      <node id="5359637282844518432" at="79,14,80,56" concept="0" />
+      <node id="5359637282844518432" at="99,15,100,59" concept="1" />
+      <node id="5359637282844353685" at="108,14,109,186" concept="0" />
+      <node id="5359637282844353685" at="129,15,130,66" concept="1" />
+      <node id="5359637282844353686" at="39,0,42,0" concept="2" trace="propertyMacro_GetValue_1_0#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <node id="5359637282844518432" at="42,0,45,0" concept="2" trace="sourceNodeQuery_1_0#(Ljetbrains/mps/generator/template/SourceSubstituteMacroNodeContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="5359637282844353687" at="39,88,40,78" />
+      <scope id="5359637282844518433" at="42,92,43,81" />
+      <scope id="5359637282844518432" at="99,15,100,59" />
+      <scope id="5359637282844353685" at="129,15,130,66" />
+      <scope id="5359637282844353686" at="39,0,42,0">
         <var name="_context" id="5359637282844353686" />
+      </scope>
+      <scope id="5359637282844518432" at="42,0,45,0">
+        <var name="_context" id="5359637282844518432" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:5687094e-9819-4194-97de-b74601033fb2(main@generator)/5359637282844491749">
+    <file name="QueriesGenerated.java">
+      <node id="5359637282844492902" at="33,83,34,95" concept="1" />
+      <node id="5359637282844503358" at="36,83,37,94" concept="1" />
+      <node id="5359637282844492296" at="47,14,48,56" concept="0" />
+      <node id="5359637282844502661" at="48,56,49,56" concept="0" />
+      <node id="5359637282844492296" at="68,15,69,58" concept="1" />
+      <node id="5359637282844502661" at="70,15,71,58" concept="1" />
+      <node id="5359637282844492570" at="33,0,36,0" concept="2" trace="rule_Condition_2_0#(Ljetbrains/mps/generator/template/BaseMappingRuleContext;)Z" />
+      <node id="5359637282844503307" at="36,0,39,0" concept="2" trace="rule_Condition_2_1#(Ljetbrains/mps/generator/template/BaseMappingRuleContext;)Z" />
+      <scope id="5359637282844492571" at="33,83,34,95" />
+      <scope id="5359637282844503308" at="36,83,37,94" />
+      <scope id="5359637282844492296" at="68,15,69,58" />
+      <scope id="5359637282844502661" at="70,15,71,58" />
+      <scope id="5359637282844492570" at="33,0,36,0">
+        <var name="_context" id="5359637282844492570" />
+      </scope>
+      <scope id="5359637282844503307" at="36,0,39,0">
+        <var name="_context" id="5359637282844503307" />
       </scope>
     </file>
   </root>
