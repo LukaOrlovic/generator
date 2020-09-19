@@ -46,6 +46,9 @@ public class QueriesGenerated extends QueryProviderBase {
   public static boolean rule_Condition_2_1(final BaseMappingRuleContext _context) {
     return SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1).equals("label");
   }
+  public static boolean rule_Condition_6_0(final BaseMappingRuleContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1).equals("frame");
+  }
   public static Object propertyMacro_GetValue_3_0(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.attribute$_Zl0)).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -66,10 +69,23 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_4_1(final PropertyMacroContext _context) {
     return _context.createUniqueName(_context.getTemplateValue(), null);
   }
+  public static Object propertyMacro_GetValue_5_0(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), LINKS.attribute$_Zl0)).findFirst(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getString(it, PROPS.name$tAp1).equals("text");
+      }
+    }), PROPS.value$_YOv);
+  }
   public static Object referenceMacro_GetReferent_1_0(final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "method");
   }
   public static boolean ifMacro_Condition_1_0(final IfMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1).equals("frame");
+  }
+  public static boolean ifMacro_Condition_1_1(final IfMacroContext _context) {
+    return !(SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1).equals("frame"));
+  }
+  public static boolean ifMacro_Condition_1_2(final IfMacroContext _context) {
     return !(SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1).equals("frame"));
   }
   public static boolean ifMacro_Condition_3_0(final IfMacroContext _context) {
@@ -92,11 +108,15 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Iterable<SNode> sourceNodesQuery_1_1(final SourceSubstituteMacroNodesContext _context) {
     return SModelOperations.nodes(_context.getInputModel(), CONCEPTS.Element$mm);
   }
+  public static Iterable<SNode> sourceNodesQuery_1_2(final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.nodes(_context.getInputModel(), CONCEPTS.Element$mm);
+  }
   private final Map<String, ReductionRuleCondition> rrcMethods = new HashMap<String, ReductionRuleCondition>();
   {
     int i = 0;
     rrcMethods.put("5359637282844492296", new RRC(i++));
     rrcMethods.put("5359637282844502661", new RRC(i++));
+    rrcMethods.put("9134984876046585812", new RRC(i++));
   }
   @Override
   @NotNull
@@ -119,6 +139,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.rule_Condition_2_0(ctx);
         case 1:
           return QueriesGenerated.rule_Condition_2_1(ctx);
+        case 2:
+          return QueriesGenerated.rule_Condition_6_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for rule %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -127,6 +149,7 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
   {
     int i = 0;
+    snsqMethods.put("9134984876046771710", new SNsQ(i++));
     snsqMethods.put("9134984876044789454", new SNsQ(i++));
     snsqMethods.put("9134984876044700190", new SNsQ(i++));
   }
@@ -151,6 +174,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_1_0(ctx));
         case 1:
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_1_1(ctx));
+        case 2:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_1_2(ctx));
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -163,6 +188,7 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("9134984876044741299", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "createComponent"));
     pvqMethods.put("9134984876044942293", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), "text"));
     pvqMethods.put("9134984876044751885", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "createComponent"));
+    pvqMethods.put("9134984876046831318", new PVQ(i++, MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value"), "Generator"));
   }
   @NotNull
   @Override
@@ -190,6 +216,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_4_0(ctx);
         case 3:
           return QueriesGenerated.propertyMacro_GetValue_4_1(ctx);
+        case 4:
+          return QueriesGenerated.propertyMacro_GetValue_5_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -198,7 +226,9 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, IfMacroCondition> imcMethods = new HashMap<String, IfMacroCondition>();
   {
     int i = 0;
+    imcMethods.put("9134984876046655929", new IfMC(i++));
     imcMethods.put("9134984876045445901", new IfMC(i++));
+    imcMethods.put("9134984876046125112", new IfMC(i++));
     imcMethods.put("9134984876044978689", new IfMC(i++));
     imcMethods.put("9134984876044909325", new IfMC(i++));
   }
@@ -222,8 +252,12 @@ public class QueriesGenerated extends QueryProviderBase {
         case 0:
           return QueriesGenerated.ifMacro_Condition_1_0(ctx);
         case 1:
-          return QueriesGenerated.ifMacro_Condition_3_0(ctx);
+          return QueriesGenerated.ifMacro_Condition_1_1(ctx);
         case 2:
+          return QueriesGenerated.ifMacro_Condition_1_2(ctx);
+        case 3:
+          return QueriesGenerated.ifMacro_Condition_3_0(ctx);
+        case 4:
           return QueriesGenerated.ifMacro_Condition_4_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for if macro %s (key: #%d)", ctx.getTemplateReference(), methodKey));

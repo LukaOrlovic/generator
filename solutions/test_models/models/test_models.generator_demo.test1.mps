@@ -15,6 +15,7 @@
     </language>
     <language id="772f6dcd-8c0d-48f7-869c-908e036f7c8e" name="jetbrains.mps.sampleXML">
       <concept id="1225239603385" name="jetbrains.mps.sampleXML.structure.Element" flags="ng" index="15YaA$">
+        <child id="1225239603387" name="content" index="15YaAA" />
         <child id="1225239603386" name="attribute" index="15YaAB" />
       </concept>
       <concept id="1225239603382" name="jetbrains.mps.sampleXML.structure.Document" flags="ng" index="15YaAF">
@@ -26,9 +27,9 @@
     </language>
   </registry>
   <node concept="15YaAF" id="54vQP_ib3x3">
-    <property role="TrG5h" value="Button" />
+    <property role="TrG5h" value="XMLDocument" />
     <node concept="15YaA$" id="54vQP_ib3x4" role="15YaA_">
-      <property role="TrG5h" value="button" />
+      <property role="TrG5h" value="frame" />
       <node concept="15YaAW" id="7V5Z5xPdS3u" role="15YaAB">
         <property role="TrG5h" value="text" />
         <property role="15YaAY" value="Hello" />
@@ -37,19 +38,19 @@
         <property role="TrG5h" value="enabled" />
         <property role="15YaAY" value="true" />
       </node>
-    </node>
-  </node>
-  <node concept="15YaAF" id="54vQP_ib3x5">
-    <property role="TrG5h" value="Label" />
-    <node concept="15YaA$" id="54vQP_ib3x6" role="15YaA_">
-      <property role="TrG5h" value="label" />
-      <node concept="15YaAW" id="7V5Z5xPdS4t" role="15YaAB">
-        <property role="TrG5h" value="text" />
-        <property role="15YaAY" value="Luka" />
+      <node concept="15YaA$" id="7V5Z5xPjj3Z" role="15YaAA">
+        <property role="TrG5h" value="button" />
+        <node concept="15YaAW" id="7V5Z5xPjjc$" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Confirm" />
+        </node>
       </node>
-      <node concept="15YaAW" id="7V5Z5xPdS6A" role="15YaAB">
-        <property role="TrG5h" value="enabled" />
-        <property role="15YaAY" value="true" />
+      <node concept="15YaA$" id="7V5Z5xPjj7s" role="15YaAA">
+        <property role="TrG5h" value="label" />
+        <node concept="15YaAW" id="7V5Z5xPjjf8" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Name:" />
+        </node>
       </node>
     </node>
   </node>
