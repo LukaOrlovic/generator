@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<frame text="Hello" enabled="true">
-  <button text="Confirm" />
-  <label text="Name:" />
+<frame text="Application" enabled="true">
+  <label text="Name:" enabled="true" />
+  <textField text="Input name here" enabled="true" />
+  <label text="Surname:" enabled="true" />
+  <textField text="Input surname here" enabled="true" />
+  <label text="Age:" enabled="true" />
+  <textField text="Input age here" enabled="true" />
+  <label text="Employed:" enabled="true" />
+  <radioButton />
+  <button text="Save" enabled="true" />
 </frame>
 

@@ -32,24 +32,101 @@
       <property role="TrG5h" value="frame" />
       <node concept="15YaAW" id="7V5Z5xPdS3u" role="15YaAB">
         <property role="TrG5h" value="text" />
-        <property role="15YaAY" value="Hello" />
+        <property role="15YaAY" value="Application" />
       </node>
       <node concept="15YaAW" id="7V5Z5xPdS3$" role="15YaAB">
         <property role="TrG5h" value="enabled" />
         <property role="15YaAY" value="true" />
-      </node>
-      <node concept="15YaA$" id="7V5Z5xPjj3Z" role="15YaAA">
-        <property role="TrG5h" value="button" />
-        <node concept="15YaAW" id="7V5Z5xPjjc$" role="15YaAB">
-          <property role="TrG5h" value="text" />
-          <property role="15YaAY" value="Confirm" />
-        </node>
       </node>
       <node concept="15YaA$" id="7V5Z5xPjj7s" role="15YaAA">
         <property role="TrG5h" value="label" />
         <node concept="15YaAW" id="7V5Z5xPjjf8" role="15YaAB">
           <property role="TrG5h" value="text" />
           <property role="15YaAY" value="Name:" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPotjf" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPmyiv" role="15YaAA">
+        <property role="TrG5h" value="textField" />
+        <node concept="15YaAW" id="7V5Z5xPmyiA" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Input name here" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPor_W" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPmypB" role="15YaAA">
+        <property role="TrG5h" value="label" />
+        <node concept="15YaAW" id="7V5Z5xPmypI" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Surname:" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPosQW" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPmypS" role="15YaAA">
+        <property role="TrG5h" value="textField" />
+        <node concept="15YaAW" id="7V5Z5xPmyq1" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Input surname here" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPosT6" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPmyqd" role="15YaAA">
+        <property role="TrG5h" value="label" />
+        <node concept="15YaAW" id="7V5Z5xPmyqo" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Age:" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPosVg" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPmyqA" role="15YaAA">
+        <property role="TrG5h" value="textField" />
+        <node concept="15YaAW" id="7V5Z5xPmyqN" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Input age here" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPosXP" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPu1Dq" role="15YaAA">
+        <property role="TrG5h" value="label" />
+        <node concept="15YaAW" id="7V5Z5xPu1DN" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Employed:" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPu1KZ" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
+        </node>
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPtyw4" role="15YaAA">
+        <property role="TrG5h" value="radioButton" />
+      </node>
+      <node concept="15YaA$" id="7V5Z5xPmyr3" role="15YaAA">
+        <property role="TrG5h" value="button" />
+        <node concept="15YaAW" id="7V5Z5xPmyri" role="15YaAB">
+          <property role="TrG5h" value="text" />
+          <property role="15YaAY" value="Save" />
+        </node>
+        <node concept="15YaAW" id="7V5Z5xPsld3" role="15YaAB">
+          <property role="TrG5h" value="enabled" />
+          <property role="15YaAY" value="true" />
         </node>
       </node>
     </node>

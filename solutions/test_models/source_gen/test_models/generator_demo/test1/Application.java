@@ -4,40 +4,92 @@ package test_models.generator_demo.test1;
 
 import java.awt.Container;
 import javax.swing.JFrame;
+import java.awt.FlowLayout;
 import java.awt.Component;
-import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JRadioButton;
+import javax.swing.JButton;
 
 public class Application {
   public static void main(String[] args) {
-    Container container = container();
-    addContent(container);
+    addContent(container());
   }
 
 
   public static Container container() {
-    JFrame frame = new JFrame("Hello");
+    JFrame frame = new JFrame("Application");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.pack();
     frame.setLocationRelativeTo(null);
     frame.setVisible(true);
     Container container = frame.getContentPane();
+    container.setLayout(new FlowLayout());
     return container;
   }
 
   public static void addContent(Container container) {
     container.add(createComponent_a0());
     container.add(createComponent_b0());
+    container.add(createComponent_c0());
+    container.add(createComponent_d0());
+    container.add(createComponent_e0());
+    container.add(createComponent_f0());
+    container.add(createComponent_g0());
+    container.add(createComponent());
+    container.add(createComponent_i0());
   }
 
   public static Component createComponent_a0() {
-    JButton component = new JButton();
-    component.setText("Confirm");
+    JLabel component = new JLabel();
+    component.setEnabled(true);
+    component.setText("Name:");
     return component;
   }
   public static Component createComponent_b0() {
+    JTextField component = new JTextField();
+    component.setEnabled(true);
+    component.setText("Input name here");
+    return component;
+  }
+  public static Component createComponent_c0() {
     JLabel component = new JLabel();
-    component.setText("Name:");
+    component.setEnabled(true);
+    component.setText("Surname:");
+    return component;
+  }
+  public static Component createComponent_d0() {
+    JTextField component = new JTextField();
+    component.setEnabled(true);
+    component.setText("Input surname here");
+    return component;
+  }
+  public static Component createComponent_e0() {
+    JLabel component = new JLabel();
+    component.setEnabled(true);
+    component.setText("Age:");
+    return component;
+  }
+  public static Component createComponent_f0() {
+    JTextField component = new JTextField();
+    component.setEnabled(true);
+    component.setText("Input age here");
+    return component;
+  }
+  public static Component createComponent_g0() {
+    JLabel component = new JLabel();
+    component.setEnabled(true);
+    component.setText("Employed:");
+    return component;
+  }
+  public static Component createComponent() {
+    JRadioButton component = new JRadioButton();
+    return component;
+  }
+  public static Component createComponent_i0() {
+    JButton component = new JButton();
+    component.setEnabled(true);
+    component.setText("Save");
     return component;
   }
 }
