@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf1443e-7099-43c7-9888-882ba463eca3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/generator/lang/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/generator/lang/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$LINKS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PROPS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PVQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$PVQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$RRC.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$RRC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$SNQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated$SNQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/QueriesGenerated.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/classes_gen/main/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/generator/lang/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen.caches/generator/lang/generated" afterDir="false" />
@@ -13,16 +18,15 @@
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/QueriesGenerated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/source_gen/main/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/generator.lang/generator/templates/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/generator.lang/generator/templates/main@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/Button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/Label.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/Label.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/classes_gen/test_models/generator_demo/test1/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/test_models/models/test_models.generator_demo.test1.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/models/test_models.generator_demo.test1.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/source_gen.caches/test_models/generator_demo/test1/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/Button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/Label.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/Label.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/source_gen/test_models/generator_demo/test1/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/test_models/test_models.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/test_models/test_models.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="d4ac2f74-66a2-4893-855a-65821c6cd72c/r:2f62e071-058f-49d6-9469-cba6112e6280(TempModuled4ac2f74-66a2-4893-855a-65821c6cd72c/ConsoleModel_1470438495600)">
+            <model ref="9ad5bcd1-cb1d-4b79-97f3-979cef33f9d9/r:a68e22f8-cf54-4b5e-bd02-aa8c921f3c34(TempModule9ad5bcd1-cb1d-4b79-97f3-979cef33f9d9/ConsoleModel_661620658700)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -55,11 +59,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5zO68hnX68O">
-                <node concept="3balQm" id="5zO68hnX68P" role="aymYE" />
-                <node concept="2Clz$F" id="5zO68hnX68Q" role="aymYO" />
-                <node concept="2_V_lH" id="5zO68hnX68R" role="1PhJh3">
-                  <ref role="2_V_lI" node="5zO68hnX68Q" resolve="CommandHolder" />
+              <node concept="aymSD" id="7V5Z5xPcJG_">
+                <node concept="3balQm" id="7V5Z5xPcJGA" role="aymYE" />
+                <node concept="2Clz$F" id="7V5Z5xPcJGB" role="aymYO" />
+                <node concept="2_V_lH" id="7V5Z5xPcJGC" role="1PhJh3">
+                  <ref role="2_V_lI" node="7V5Z5xPcJGB" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -176,19 +180,8 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -206,6 +199,44 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator.lang#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:5687094e-9819-4194-97de-b74601033fb2(main@generator) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/languages/generator.lang/generator/templates/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5b01e709-a62b-4aaa-8458-21ef22e4fece" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,6 +255,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1) in IdeaFile[path: C:/Users/orlov/OneDrive/Desktop/Proj/generator/solutions/test_models/models/test_models.generator_demo.test1.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2bd6e67f-0edd-4e04-b84e-f4ba124b8eaa(generator.lang)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator.lang#01" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,6 +296,7 @@
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -335,10 +381,14 @@
     </default_view_options>
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="123" key="#MPSPropertiesConfigurable" timestamp="1599498809973">
+    <state x="324" y="123" key="#MPSPropertiesConfigurable" timestamp="1600503841718">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="324" y="123" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1599498809973" />
+    <state x="324" y="123" key="#MPSPropertiesConfigurable/0.0.1366.738@0.0.1366.738" timestamp="1600503841718" />
+    <state x="413" y="124" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1600504083319">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="124" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1366.738@0.0.1366.738" timestamp="1600504083319" />
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1599391780603">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -347,10 +397,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598954819919" />
-    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1599498799236">
+    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1600503833331">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1599498799236" />
+    <state x="499" y="191" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1600503833331" />
     <state x="400" y="228" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1598954833098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

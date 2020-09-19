@@ -14,9 +14,14 @@
       </concept>
     </language>
     <language id="772f6dcd-8c0d-48f7-869c-908e036f7c8e" name="jetbrains.mps.sampleXML">
-      <concept id="1225239603385" name="jetbrains.mps.sampleXML.structure.Element" flags="ng" index="15YaA$" />
+      <concept id="1225239603385" name="jetbrains.mps.sampleXML.structure.Element" flags="ng" index="15YaA$">
+        <child id="1225239603386" name="attribute" index="15YaAB" />
+      </concept>
       <concept id="1225239603382" name="jetbrains.mps.sampleXML.structure.Document" flags="ng" index="15YaAF">
         <child id="1225239603384" name="rootElement" index="15YaA_" />
+      </concept>
+      <concept id="1225239603361" name="jetbrains.mps.sampleXML.structure.Attribute" flags="ng" index="15YaAW">
+        <property id="1225239603363" name="value" index="15YaAY" />
       </concept>
     </language>
   </registry>
@@ -24,12 +29,28 @@
     <property role="TrG5h" value="Button" />
     <node concept="15YaA$" id="54vQP_ib3x4" role="15YaA_">
       <property role="TrG5h" value="button" />
+      <node concept="15YaAW" id="7V5Z5xPdS3u" role="15YaAB">
+        <property role="TrG5h" value="text" />
+        <property role="15YaAY" value="Hello" />
+      </node>
+      <node concept="15YaAW" id="7V5Z5xPdS3$" role="15YaAB">
+        <property role="TrG5h" value="enabled" />
+        <property role="15YaAY" value="true" />
+      </node>
     </node>
   </node>
   <node concept="15YaAF" id="54vQP_ib3x5">
     <property role="TrG5h" value="Label" />
     <node concept="15YaA$" id="54vQP_ib3x6" role="15YaA_">
       <property role="TrG5h" value="label" />
+      <node concept="15YaAW" id="7V5Z5xPdS4t" role="15YaAB">
+        <property role="TrG5h" value="text" />
+        <property role="15YaAY" value="Luka" />
+      </node>
+      <node concept="15YaAW" id="7V5Z5xPdS6A" role="15YaAB">
+        <property role="TrG5h" value="enabled" />
+        <property role="15YaAY" value="true" />
+      </node>
     </node>
   </node>
 </model>

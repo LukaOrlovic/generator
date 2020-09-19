@@ -2,47 +2,37 @@
 <debug-info version="2">
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="Application.java">
+      <unit at="11,0,38,0" name="test_models.generator_demo.test1.Application" />
+    </file>
+  </root>
   <root nodeRef="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1)/5845632018027395139">
-    <file name="Button.java">
-      <node id="5845632018027395139" at="11,42,12,43" concept="1" />
-      <node id="5845632018027395139" at="12,43,13,57" concept="0" />
-      <node id="5845632018027395139" at="13,57,14,49" concept="1" />
-      <node id="5845632018027395139" at="14,49,15,42" concept="0" />
-      <node id="5845632018027395139" at="15,42,16,33" concept="0" />
-      <node id="5845632018027395139" at="16,33,17,17" concept="0" />
-      <node id="5845632018027395139" at="17,17,18,38" concept="0" />
-      <node id="5845632018027395139" at="18,38,19,27" concept="0" />
-      <node id="5845632018027395139" at="11,0,21,0" concept="2" trace="main#([Ljava/lang/String;)V" />
-      <scope id="5845632018027395139" at="11,42,19,27">
-        <var name="container" id="5845632018027395139" />
-        <var name="frame" id="5845632018027395139" />
+    <file name="Application.java">
+      <node id="5845632018027395140" at="22,54,23,39" concept="0" />
+      <node id="5845632018027395140" at="27,47,28,38" concept="1" />
+      <node id="5845632018027395140" at="28,38,29,31" concept="0" />
+      <node id="5845632018027395140" at="29,31,30,21" concept="2" />
+      <node id="5845632018027395140" at="27,0,32,0" concept="3" trace="createComponent_a#()Ljava/awt/Component;" />
+      <scope id="5845632018027395140" at="27,47,30,21">
+        <var name="component" id="5845632018027395140" />
       </scope>
-      <scope id="5845632018027395139" at="11,0,21,0">
-        <var name="args" id="5845632018027395139" />
-      </scope>
-      <unit id="5845632018027395139" at="10,0,22,0" name="test_models.generator_demo.test1.Button" />
+      <scope id="5845632018027395140" at="27,0,32,0" />
     </file>
   </root>
   <root nodeRef="r:c633e357-67fc-4fca-885b-907161eca22c(test_models.generator_demo.test1)/5845632018027395141">
-    <file name="Label.java">
-      <node id="5845632018027395141" at="11,42,12,43" concept="1" />
-      <node id="5845632018027395141" at="12,43,13,57" concept="0" />
-      <node id="5845632018027395141" at="13,57,14,49" concept="1" />
-      <node id="5845632018027395141" at="14,49,15,42" concept="0" />
-      <node id="5845632018027395141" at="15,42,16,32" concept="0" />
-      <node id="5845632018027395141" at="16,32,17,17" concept="0" />
-      <node id="5845632018027395141" at="17,17,18,38" concept="0" />
-      <node id="5845632018027395141" at="18,38,19,27" concept="0" />
-      <node id="5845632018027395141" at="11,0,21,0" concept="2" trace="main#([Ljava/lang/String;)V" />
-      <scope id="5845632018027395141" at="11,42,19,27">
-        <var name="container" id="5845632018027395141" />
-        <var name="frame" id="5845632018027395141" />
+    <file name="Application.java">
+      <node id="5845632018027395142" at="23,39,24,41" concept="0" />
+      <node id="5845632018027395142" at="32,49,33,36" concept="1" />
+      <node id="5845632018027395142" at="33,36,34,30" concept="0" />
+      <node id="5845632018027395142" at="34,30,35,21" concept="2" />
+      <node id="5845632018027395142" at="32,0,37,0" concept="3" trace="createComponent_a_0#()Ljava/awt/Component;" />
+      <scope id="5845632018027395142" at="32,49,35,21">
+        <var name="component" id="5845632018027395142" />
       </scope>
-      <scope id="5845632018027395141" at="11,0,21,0">
-        <var name="args" id="5845632018027395141" />
-      </scope>
-      <unit id="5845632018027395141" at="10,0,22,0" name="test_models.generator_demo.test1.Label" />
+      <scope id="5845632018027395142" at="32,0,37,0" />
     </file>
   </root>
 </debug-info>
